@@ -1,0 +1,29 @@
+= Spring Boot - OAuth2 m2m Hands-on
+:toc:
+
+== Introduction
+
+=== What's this?
+
+Baking the OAuth2 machine-to-machine (m2m) flow into a Spring Boot application (client credentials grant) to access a protected resource can be realized in several ways - options like Spring Security, Spring Security OAuth2 Client, Web Flux, etc. may or may not fit regarding their potential for overhead.
+
+This hands-on project comes with a minimalistic approach to demonstrate how to implement the OAuth2 m2m flow in a Spring Boot agnostic way.
+
+=== Pre-requisites
+
+* Java 17
+* Maven 3.8
+
+== Get Started
+
+=== Initial setup
+
+* Git clone this repo and cd into it
+
+=== Verification
+
+* Build and run tests:
+[source,bash]
+----
+mvn clean install
+----
