@@ -20,15 +20,19 @@
 		<lombok.version>1.18.28</lombok.version>
 		<java-jwt.version>4.3.0</java-jwt.version>
 		<maven-compiler-plugin.version>3.11.0</maven-compiler-plugin.version>
+
 		<java.version>17</java.version>
+		<utf-8.encoding>UTF-8</utf-8.encoding>
 	</properties>
 
 	<dependencies>
+		<!-- Spring -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+		<!-- Lombok -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
@@ -42,6 +46,7 @@
 			<version>${java-jwt.version}</version>
 		</dependency>
 
+		<!-- Testing -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
